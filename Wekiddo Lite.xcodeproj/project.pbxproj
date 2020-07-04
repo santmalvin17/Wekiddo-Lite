@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A1FC5B124B07F490091A13B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FC5B024B07F490091A13B /* AppDelegate.swift */; };
+		0A1FC5B324B07F490091A13B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FC5B224B07F490091A13B /* SceneDelegate.swift */; };
+		0A1FC5B524B07F490091A13B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FC5B424B07F490091A13B /* ViewController.swift */; };
+		0A1FC5B824B07F490091A13B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A1FC5B624B07F490091A13B /* Main.storyboard */; };
+		0A1FC5BA24B07F4A0091A13B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A1FC5B924B07F4A0091A13B /* Assets.xcassets */; };
+		0A1FC5BD24B07F4A0091A13B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A1FC5BB24B07F4A0091A13B /* LaunchScreen.storyboard */; };
+		0A1FC5DC24B084780091A13B /* ACScrollViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FC5D124B084770091A13B /* ACScrollViewExtension.swift */; };
+		0A1FC5DD24B084780091A13B /* CustomBorderShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FC5D224B084770091A13B /* CustomBorderShadow.swift */; };
+		0A1FC5DE24B084780091A13B /* ACAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FC5D324B084770091A13B /* ACAlert.swift */; };
+		0A1FC5DF24B084780091A13B /* ButtonLeftSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FC5D424B084770091A13B /* ButtonLeftSpace.swift */; };
+		0A1FC5E024B084780091A13B /* AsynchronusImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FC5D524B084770091A13B /* AsynchronusImage.swift */; };
+		0A1FC5E124B084780091A13B /* SelfSizedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FC5D624B084770091A13B /* SelfSizedTableView.swift */; };
+		0A1FC5E224B084780091A13B /* TextViewLeftSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FC5D724B084770091A13B /* TextViewLeftSpace.swift */; };
+		0A1FC5E324B084780091A13B /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FC5D824B084770091A13B /* Double.swift */; };
+		0A1FC5E424B084780091A13B /* CustomBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FC5D924B084770091A13B /* CustomBorder.swift */; };
+		0A1FC5E524B084780091A13B /* ACTextfieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FC5DA24B084770091A13B /* ACTextfieldExtension.swift */; };
+		0A1FC5E624B084780091A13B /* Border+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FC5DB24B084780091A13B /* Border+View.swift */; };
+		DADE1B269F7B617DB5C22BF0 /* Pods_Wekiddo_Lite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F27BAD28A9FFDB0442BEFE /* Pods_Wekiddo_Lite.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A1FC5AD24B07F490091A13B /* Wekiddo Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wekiddo Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A1FC5B024B07F490091A13B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A1FC5B224B07F490091A13B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0A1FC5B424B07F490091A13B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A1FC5B724B07F490091A13B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A1FC5B924B07F4A0091A13B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A1FC5BC24B07F4A0091A13B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A1FC5BE24B07F4A0091A13B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A1FC5CF24B084600091A13B /* ACAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACAPI.swift; sourceTree = "<group>"; };
+		0A1FC5D024B084600091A13B /* ACRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACRequest.swift; sourceTree = "<group>"; };
+		0A1FC5D124B084770091A13B /* ACScrollViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ACScrollViewExtension.swift; path = ../../../../../../../Documents/BasedProjcet/BasedProjcet/Helper/Extension/ACScrollViewExtension.swift; sourceTree = "<group>"; };
+		0A1FC5D224B084770091A13B /* CustomBorderShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomBorderShadow.swift; path = ../../../../../../../Documents/BasedProjcet/BasedProjcet/Helper/Extension/CustomBorderShadow.swift; sourceTree = "<group>"; };
+		0A1FC5D324B084770091A13B /* ACAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ACAlert.swift; path = ../../../../../../../Documents/BasedProjcet/BasedProjcet/Helper/Extension/ACAlert.swift; sourceTree = "<group>"; };
+		0A1FC5D424B084770091A13B /* ButtonLeftSpace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonLeftSpace.swift; path = ../../../../../../../Documents/BasedProjcet/BasedProjcet/Helper/Extension/ButtonLeftSpace.swift; sourceTree = "<group>"; };
+		0A1FC5D524B084770091A13B /* AsynchronusImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AsynchronusImage.swift; path = ../../../../../../../Documents/BasedProjcet/BasedProjcet/Helper/Extension/AsynchronusImage.swift; sourceTree = "<group>"; };
+		0A1FC5D624B084770091A13B /* SelfSizedTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelfSizedTableView.swift; path = ../../../../../../../Documents/BasedProjcet/BasedProjcet/Helper/Extension/SelfSizedTableView.swift; sourceTree = "<group>"; };
+		0A1FC5D724B084770091A13B /* TextViewLeftSpace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextViewLeftSpace.swift; path = ../../../../../../../Documents/BasedProjcet/BasedProjcet/Helper/Extension/TextViewLeftSpace.swift; sourceTree = "<group>"; };
+		0A1FC5D824B084770091A13B /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Double.swift; path = ../../../../../../../Documents/BasedProjcet/BasedProjcet/Helper/Extension/Double.swift; sourceTree = "<group>"; };
+		0A1FC5D924B084770091A13B /* CustomBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomBorder.swift; path = ../../../../../../../Documents/BasedProjcet/BasedProjcet/Helper/Extension/CustomBorder.swift; sourceTree = "<group>"; };
+		0A1FC5DA24B084770091A13B /* ACTextfieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ACTextfieldExtension.swift; path = ../../../../../../../Documents/BasedProjcet/BasedProjcet/Helper/Extension/ACTextfieldExtension.swift; sourceTree = "<group>"; };
+		0A1FC5DB24B084780091A13B /* Border+View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Border+View.swift"; path = "../../../../../../../Documents/BasedProjcet/BasedProjcet/Helper/Extension/Border+View.swift"; sourceTree = "<group>"; };
+		1974BE06FA0258C0D23BF56B /* Pods-Wekiddo Lite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wekiddo Lite.debug.xcconfig"; path = "Target Support Files/Pods-Wekiddo Lite/Pods-Wekiddo Lite.debug.xcconfig"; sourceTree = "<group>"; };
+		3CC53738C225442DB37AADF7 /* Pods-Wekiddo Lite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wekiddo Lite.release.xcconfig"; path = "Target Support Files/Pods-Wekiddo Lite/Pods-Wekiddo Lite.release.xcconfig"; sourceTree = "<group>"; };
+		63F27BAD28A9FFDB0442BEFE /* Pods_Wekiddo_Lite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wekiddo_Lite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A1FC5AA24B07F490091A13B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADE1B269F7B617DB5C22BF0 /* Pods_Wekiddo_Lite.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A1FC5A424B07F490091A13B = {
+			isa = PBXGroup;
+			children = (
+				0A1FC5AF24B07F490091A13B /* Wekiddo Lite */,
+				0A1FC5AE24B07F490091A13B /* Products */,
+				A130833B2F2F37D3F42A3A40 /* Pods */,
+				7EC8B888F8E47C1688E7F5DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A1FC5AE24B07F490091A13B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A1FC5AD24B07F490091A13B /* Wekiddo Lite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A1FC5AF24B07F490091A13B /* Wekiddo Lite */ = {
+			isa = PBXGroup;
+			children = (
+				0A1FC5C724B0808C0091A13B /* Helper */,
+				0A1FC5C424B0806A0091A13B /* Class */,
+				0A1FC5B024B07F490091A13B /* AppDelegate.swift */,
+				0A1FC5B224B07F490091A13B /* SceneDelegate.swift */,
+				0A1FC5B424B07F490091A13B /* ViewController.swift */,
+				0A1FC5B624B07F490091A13B /* Main.storyboard */,
+				0A1FC5B924B07F4A0091A13B /* Assets.xcassets */,
+				0A1FC5BB24B07F4A0091A13B /* LaunchScreen.storyboard */,
+				0A1FC5BE24B07F4A0091A13B /* Info.plist */,
+			);
+			path = "Wekiddo Lite";
+			sourceTree = "<group>";
+		};
+		0A1FC5C424B0806A0091A13B /* Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		0A1FC5C624B0807F0091A13B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A1FC5C724B0808C0091A13B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0A1FC5CA24B084410091A13B /* Extension */,
+				0A1FC5C924B084360091A13B /* Network Services */,
+				0A1FC5C824B0842D0091A13B /* Data Manager */,
+				0A1FC5C624B0807F0091A13B /* Model */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		0A1FC5C824B0842D0091A13B /* Data Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Data Manager";
+			sourceTree = "<group>";
+		};
+		0A1FC5C924B084360091A13B /* Network Services */ = {
+			isa = PBXGroup;
+			children = (
+				0A1FC5CF24B084600091A13B /* ACAPI.swift */,
+				0A1FC5D024B084600091A13B /* ACRequest.swift */,
+			);
+			path = "Network Services";
+			sourceTree = "<group>";
+		};
+		0A1FC5CA24B084410091A13B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0A1FC5D324B084770091A13B /* ACAlert.swift */,
+				0A1FC5D124B084770091A13B /* ACScrollViewExtension.swift */,
+				0A1FC5DA24B084770091A13B /* ACTextfieldExtension.swift */,
+				0A1FC5D524B084770091A13B /* AsynchronusImage.swift */,
+				0A1FC5DB24B084780091A13B /* Border+View.swift */,
+				0A1FC5D424B084770091A13B /* ButtonLeftSpace.swift */,
+				0A1FC5D924B084770091A13B /* CustomBorder.swift */,
+				0A1FC5D224B084770091A13B /* CustomBorderShadow.swift */,
+				0A1FC5D824B084770091A13B /* Double.swift */,
+				0A1FC5D624B084770091A13B /* SelfSizedTableView.swift */,
+				0A1FC5D724B084770091A13B /* TextViewLeftSpace.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7EC8B888F8E47C1688E7F5DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63F27BAD28A9FFDB0442BEFE /* Pods_Wekiddo_Lite.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A130833B2F2F37D3F42A3A40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1974BE06FA0258C0D23BF56B /* Pods-Wekiddo Lite.debug.xcconfig */,
+				3CC53738C225442DB37AADF7 /* Pods-Wekiddo Lite.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A1FC5AC24B07F490091A13B /* Wekiddo Lite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A1FC5C124B07F4A0091A13B /* Build configuration list for PBXNativeTarget "Wekiddo Lite" */;
+			buildPhases = (
+				05460F4E21C3D9B543B9F389 /* [CP] Check Pods Manifest.lock */,
+				0A1FC5A924B07F490091A13B /* Sources */,
+				0A1FC5AA24B07F490091A13B /* Frameworks */,
+				0A1FC5AB24B07F490091A13B /* Resources */,
+				C574AC197B500BDAEAA60A30 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wekiddo Lite";
+			productName = "Wekiddo Lite";
+			productReference = 0A1FC5AD24B07F490091A13B /* Wekiddo Lite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A1FC5A524B07F490091A13B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Malvin Santoso";
+				TargetAttributes = {
+					0A1FC5AC24B07F490091A13B = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 0A1FC5A824B07F490091A13B /* Build configuration list for PBXProject "Wekiddo Lite" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A1FC5A424B07F490091A13B;
+			productRefGroup = 0A1FC5AE24B07F490091A13B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A1FC5AC24B07F490091A13B /* Wekiddo Lite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A1FC5AB24B07F490091A13B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1FC5BD24B07F4A0091A13B /* LaunchScreen.storyboard in Resources */,
+				0A1FC5BA24B07F4A0091A13B /* Assets.xcassets in Resources */,
+				0A1FC5B824B07F490091A13B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05460F4E21C3D9B543B9F389 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wekiddo Lite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C574AC197B500BDAEAA60A30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wekiddo Lite/Pods-Wekiddo Lite-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wekiddo Lite/Pods-Wekiddo Lite-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wekiddo Lite/Pods-Wekiddo Lite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A1FC5A924B07F490091A13B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1FC5E624B084780091A13B /* Border+View.swift in Sources */,
+				0A1FC5DE24B084780091A13B /* ACAlert.swift in Sources */,
+				0A1FC5E224B084780091A13B /* TextViewLeftSpace.swift in Sources */,
+				0A1FC5E024B084780091A13B /* AsynchronusImage.swift in Sources */,
+				0A1FC5E124B084780091A13B /* SelfSizedTableView.swift in Sources */,
+				0A1FC5B524B07F490091A13B /* ViewController.swift in Sources */,
+				0A1FC5DF24B084780091A13B /* ButtonLeftSpace.swift in Sources */,
+				0A1FC5DC24B084780091A13B /* ACScrollViewExtension.swift in Sources */,
+				0A1FC5B124B07F490091A13B /* AppDelegate.swift in Sources */,
+				0A1FC5DD24B084780091A13B /* CustomBorderShadow.swift in Sources */,
+				0A1FC5E524B084780091A13B /* ACTextfieldExtension.swift in Sources */,
+				0A1FC5E324B084780091A13B /* Double.swift in Sources */,
+				0A1FC5E424B084780091A13B /* CustomBorder.swift in Sources */,
+				0A1FC5B324B07F490091A13B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A1FC5B624B07F490091A13B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A1FC5B724B07F490091A13B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A1FC5BB24B07F4A0091A13B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A1FC5BC24B07F4A0091A13B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A1FC5BF24B07F4A0091A13B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A1FC5C024B07F4A0091A13B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A1FC5C224B07F4A0091A13B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1974BE06FA0258C0D23BF56B /* Pods-Wekiddo Lite.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EX65DH5AM5;
+				INFOPLIST_FILE = "Wekiddo Lite/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VinVin.Wekiddo-Lite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A1FC5C324B07F4A0091A13B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CC53738C225442DB37AADF7 /* Pods-Wekiddo Lite.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EX65DH5AM5;
+				INFOPLIST_FILE = "Wekiddo Lite/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VinVin.Wekiddo-Lite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A1FC5A824B07F490091A13B /* Build configuration list for PBXProject "Wekiddo Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A1FC5BF24B07F4A0091A13B /* Debug */,
+				0A1FC5C024B07F4A0091A13B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A1FC5C124B07F4A0091A13B /* Build configuration list for PBXNativeTarget "Wekiddo Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A1FC5C224B07F4A0091A13B /* Debug */,
+				0A1FC5C324B07F4A0091A13B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A1FC5A524B07F490091A13B /* Project object */;
+}
